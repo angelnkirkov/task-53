@@ -10,15 +10,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script>
       window.onload = function () {
-        document
-          .querySelector(".card product")
-          .setAttribute("data-price", "$8,95");
+        const aa = document.querySelector(".card-product");
+        console.log(aa);
+        aa.setAttribute("data-price", "$8,95");
       };
     </script>
   </head>
   <body>
+    <div class="hui"></div>
     <div class="main">
-      <div class="card product">
+      <div class="card-product">
         <div class="card-image">
           <figure class="image is-4by3">
             <img
