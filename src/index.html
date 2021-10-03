@@ -8,6 +8,11 @@
       content="Used as a boilerplate for tasks in the 'HTML, CSS and SASS' course in boom.dev"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script>
+      const data = document.querySelector(".card product");
+      const price = document.querySelector(".subtitle is-6 price");
+      data.setAttribute("data-price", price);
+    </script>
   </head>
   <body>
     <div class="main">
