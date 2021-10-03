@@ -9,9 +9,11 @@
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script>
-      const data = document.querySelector(".card product");
-      const price = document.querySelector(".subtitle is-6 price");
-      data.setAttribute("data-price", "$8,95");
+      window.onload = function () {
+        const data = document.querySelector(".card product");
+        const price = document.querySelector(".subtitle is-6 price");
+        data.setAttribute("data-price", "$8,95");
+      };
     </script>
   </head>
   <body>
